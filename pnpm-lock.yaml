@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  astro: 0.24.0-next.2
+  astro: 0.24.0
   autoprefixer: 10.4.2
   husky: 7.0.4
   lint-staged: 12.3.5
@@ -11,7 +11,7 @@ specifiers:
   tailwindcss: 3.0.23
 
 devDependencies:
-  astro: 0.24.0-next.2
+  astro: 0.24.0
   autoprefixer: 10.4.2_postcss@8.4.8
   husky: 7.0.4
   lint-staged: 12.3.5
@@ -31,14 +31,13 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@astrojs/compiler/0.12.0-next.9:
+  /@astrojs/compiler/0.12.0:
     resolution:
       {
-        integrity: sha512-XHvGrPBhr/LBYZT4TuXf8mK2+CYCClQoPln9FlF6gIx4yTsWpUwAi3mhhFOGJi4NB1Y1ZbcXS60IjMy/2adpLg==
+        integrity: sha512-P1OibxzBRkWz18FL9IClI4WIOL6fFHqrmYq+/Ygw3ya0GHeDZ8pLFVpLXTPKMdHoys43dwffPA/6pWaFygBlEw==
       }
     dependencies:
       tsm: 2.2.1
-      typescript: 4.6.2
       uvu: 0.5.3
     dev: true
 
@@ -1136,15 +1135,15 @@ packages:
     engines: { node: '>=8' }
     dev: true
 
-  /astro/0.24.0-next.2:
+  /astro/0.24.0:
     resolution:
       {
-        integrity: sha512-fDrNIgI3kOV76lYVxhujCN5Eju6hd8XWMT08EN+K8Zyqg4XtWhj2PDlVbtpKvSaNP0Qc8NBtpJUwHVT5tBLJPA==
+        integrity: sha512-KN0EtbypW+OC2MQOEH2wBcNlX0Vuu/+DMLVCJsaH2RnvzONunuWxZdNxKCO8EM7fnx8TlH+vA9VaBXcdm5iWTA==
       }
     engines: { node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0' }
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.12.0-next.9
+      '@astrojs/compiler': 0.12.0
       '@astrojs/language-server': 0.8.10
       '@astrojs/markdown-remark': 0.6.4
       '@astrojs/prism': 0.4.0
