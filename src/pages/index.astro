@@ -1,20 +1,84 @@
----
-import '../styles/global.css'
----
-
-<html lang="pt-BR">
+<html lang='pt-BR'>
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta charset='UTF-8' />
+		<meta name='viewport' content='width=device-width' />
 		<title>Bruna Perek</title>
-		<meta
-			name="description"
-			content="DESIGNER GRÁFICO &amp; EDITORA AUDIOVISUAL"
-		/>
+		<meta name='description' content='DESIGNER GRÁFICO & EDITORA AUDIOVISUAL' />
+
+		<link rel='icon' type='image/x-icon' href='/favicon.ico' />
+		<link rel='stylesheet' href='/fonts/index.css' />
 	</head>
 
-	<body>
-		<h1 class="text-red-500">BRPEREK</h1>
+	<body
+		class='antialiased font-light bg-cover text-primary bg-background bg-body'
+	>
+		<header class='flex justify-end shadow bg-background'>
+			<img src='/icon.webp' height='52' width='63.11' />
+		</header>
+		<main class='flex flex-col items-center'>
+			<img src='/me.webp' height='320' width='302.15' />
+
+			<div class='px-8'>
+				<h1 class='text-2xl'>Olá, eu sou a Bruna</h1>
+				<h2 class='mt-2 text-lg tracking-full text-secondary'>
+					DESIGNER GRÁFICO & EDITORA AUDIOVISUAL
+				</h2>
+				<div class='mt-2'>
+					<span class='text-tertiary'>e-mail:</span>
+					<span>brperek@gmail.com</span>
+				</div>
+				<div class='mt-6 text-lg indent-10 text-tertiary'>
+					Formada em Técnico de Informática pelo Instituto Federal do Paraná,
+					produzo artes visuais, webdesigner, designer gráfico e edição
+					audiovisual como curtas, trailers, reels e vlogs.
+				</div>
+			</div>
+
+			<h2 class='self-end mt-10 mr-6 text-2xl'>TRABALHOS</h2>
+			<div class='flex pl-4 mt-4 space-x-5 overflow-hidden'>
+				{Array.from({ length: 2 }).map((_, index) => (
+					<img src={`/gallery/${index}.webp`} height='206' width='219.3' />
+				))}
+			</div>
+
+			<h2 class='self-end mt-10 mr-6 text-2xl'>SERVIÇOS</h2>
+			<div class='flex flex-col w-full px-6 mt-4 space-y-5'>
+				<div class='px-4 py-6 text-center shadow-xl bg-background'>
+					<h3 class='text-xl font-medium'>Edição de Vídeos</h3>
+					<p>Sony Vegas/Premiere/CapCut</p>
+				</div>
+				<div class='px-4 py-6 text-center shadow-xl bg-background'>
+					<h3 class='text-xl font-medium'>WebDesigner</h3>
+					<p>Photoshop/Illustrador/Canva/Figma</p>
+				</div>
+				<div class='px-4 py-6 text-center shadow-xl bg-background'>
+					<h3 class='text-xl font-medium'>Edição de Fotos</h3>
+					<p>Lightroom/VSCO</p>
+				</div>
+			</div>
+
+			<h2 class='self-end mt-10 mr-6 text-2xl'>SOCIAIS</h2>
+			<div class='flex pb-4 mt-4'>
+				<img src='./large-icon.webp' height='120' width='125' />
+				<div class='ml-2 space-y-2'>
+					<p>
+						<span class='text-tertiary'>INSTAGRAM:</span>
+						<span>@bruna.perek</span>
+					</p>
+					<p>
+						<span class='text-tertiary'>TWITTER:</span>
+						<span>@brperek</span>
+					</p>
+					<p>
+						<span class='text-tertiary'>LINKEDIN:</span>
+						<span>Bruna Perek</span>
+					</p>
+					<p>
+						<span class='text-tertiary'>BEHANCE:</span>
+						<span>Bruna Perek</span>
+					</p>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>

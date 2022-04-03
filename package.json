@@ -8,19 +8,18 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"validate": "astro check",
-		"format": "prettier -uw --ignore-path .gitignore ."
+		"format": "prettier -uw --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"astro": "0.24.0",
-		"autoprefixer": "10.4.2",
+		"@astrojs/tailwind": "0.1.0",
+		"@types/tailwindcss": "3.0.10",
+		"astro": "0.26.0",
 		"husky": "7.0.4",
-		"lint-staged": "12.3.5",
-		"postcss": "8.4.8",
-		"prettier": "2.5.1",
-		"prettier-plugin-astro": "0.0.12",
-		"tailwindcss": "3.0.23"
+		"lint-staged": "12.3.7",
+		"prettier": "2.6.2",
+		"prettier-plugin-astro": "next"
 	},
 	"lint-staged": {
-		"*": "prettier -uw"
+		"*": "prettier -uw --plugin-search-dir=."
 	}
 }

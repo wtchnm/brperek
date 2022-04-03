@@ -1,6 +1,7 @@
-import type { AstroUserConfig } from 'astro'
+import { defineConfig } from 'astro/config'
+import tailwind from '@astrojs/tailwind'
 
-const config: AstroUserConfig = {
-	renderers: []
-}
-export default config
+// https://astro.build/config
+export default defineConfig({
+	integrations: [tailwind({})]
+})
