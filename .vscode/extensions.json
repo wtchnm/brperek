@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"astro-build.astro-vscode",
+		"heybourn.headwind",
+		"esbenp.prettier-vscode",
+		"bradlc.vscode-tailwindcss"
+	]
+}
