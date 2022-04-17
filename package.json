@@ -11,11 +11,11 @@
 		"format": "prettier -uw --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@astrojs/tailwind": "0.1.0",
+		"@astrojs/tailwind": "0.2.0",
 		"@types/tailwindcss": "3.0.10",
-		"astro": "0.26.0",
+		"astro": "1.0.0-beta.12",
 		"husky": "7.0.4",
-		"lint-staged": "12.3.7",
+		"lint-staged": "12.3.8",
 		"prettier": "2.6.2",
 		"prettier-plugin-astro": "next"
 	},
