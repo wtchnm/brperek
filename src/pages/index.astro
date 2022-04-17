@@ -1,3 +1,8 @@
+---
+import Section from '../components/Section.astro'
+import Card from '../components/Card.astro'
+---
+
 <html lang='pt-BR'>
 	<head>
 		<meta charset='UTF-8' />
@@ -34,31 +39,20 @@
 				</div>
 			</div>
 
-			<h2 class='self-end mt-10 mr-6 text-2xl'>TRABALHOS</h2>
-			<div class='flex pl-4 mt-4 space-x-5 overflow-hidden'>
+			<Section title='TRABALHOS' className='pl-4 space-x-5 overflow-hidden'>
 				{Array.from({ length: 2 }).map((_, index) => (
 					<img src={`/gallery/${index}.webp`} height='206' width='219.3' />
 				))}
-			</div>
+			</Section>
 
-			<h2 class='self-end mt-10 mr-6 text-2xl'>SERVIÇOS</h2>
-			<div class='flex flex-col w-full px-6 mt-4 space-y-5'>
-				<div class='px-4 py-6 text-center shadow-xl bg-background'>
-					<h3 class='text-xl font-medium'>Edição de Vídeos</h3>
-					<p>Sony Vegas/Premiere/CapCut</p>
-				</div>
-				<div class='px-4 py-6 text-center shadow-xl bg-background'>
-					<h3 class='text-xl font-medium'>WebDesigner</h3>
-					<p>Photoshop/Illustrador/Canva/Figma</p>
-				</div>
-				<div class='px-4 py-6 text-center shadow-xl bg-background'>
-					<h3 class='text-xl font-medium'>Edição de Fotos</h3>
-					<p>Lightroom/VSCO</p>
-				</div>
-			</div>
+			<Section title='SERVIÇOS' className='flex-col w-full px-6 space-y-5'>
+				<Card title='Edição de Vídeos' subtitle='Sony Vegas/Premiere/CapCut' />
+				<Card title='WebDesigner' subtitle='Photoshop/Illustrador/Canva/Figma'
+				/>
+				<Card title='Edição de Fotos' subtitle='Lightroom/VSCO' />
+			</Section>
 
-			<h2 class='self-end mt-10 mr-6 text-2xl'>SOCIAIS</h2>
-			<div class='flex pb-4 mt-4'>
+			<Section title='SOCIAIS' className='pb-8'>
 				<img src='./large-icon.webp' height='120' width='125' />
 				<div class='ml-2 space-y-2'>
 					<p>
@@ -78,7 +72,7 @@
 						<span>Bruna Perek</span>
 					</p>
 				</div>
-			</div>
+			</Section>
 		</main>
 	</body>
 </html>

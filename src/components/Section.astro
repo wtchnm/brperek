@@ -1,0 +1,14 @@
+---
+export interface Props {
+	title: string
+	className?: string
+}
+const { title, className } = Astro.props
+---
+
+<section class='w-full flex flex-col mt-10'>
+	<h2 class='self-end mr-6 text-2xl'>{title}</h2>
+	<div class:list={['flex justify-center mt-4', className]}>
+		<slot></slot>
+	</div>
+</section>
