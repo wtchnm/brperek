@@ -18,10 +18,10 @@ import Card from '../components/Card.astro'
 		class='antialiased font-light bg-cover text-primary bg-background bg-body'
 	>
 		<header class='flex justify-end shadow bg-background'>
-			<img src='/icon.webp' height='52' width='63.11' />
+			<img src='/icon.webp' height='52' width='63.11' alt='Ícone' />
 		</header>
 		<main class='flex flex-col items-center'>
-			<img src='/me.webp' height='320' width='302.15' />
+			<img src='/me.webp' height='320' width='302.15' alt='Bruna Perek' />
 
 			<div class='px-8'>
 				<h1 class='text-2xl'>Olá, eu sou a Bruna</h1>
@@ -41,7 +41,12 @@ import Card from '../components/Card.astro'
 
 			<Section title='TRABALHOS' className='pl-4 space-x-5 overflow-hidden'>
 				{Array.from({ length: 2 }).map((_, index) => (
-					<img src={`/gallery/${index}.webp`} height='206' width='219.3' />
+					<img
+						src={`/gallery/${index}.webp`}
+						height='206'
+						width='219.3'
+						alt={`Trabalho ${index + 1}`}
+					/>
 				))}
 			</Section>
 
@@ -53,7 +58,7 @@ import Card from '../components/Card.astro'
 			</Section>
 
 			<Section title='SOCIAIS' className='pb-8'>
-				<img src='./large-icon.webp' height='120' width='125' />
+				<img src='./large-icon.webp' height='120' width='125' alt='Ícone' />
 				<div class='ml-2 space-y-2'>
 					<p>
 						<span class='text-tertiary'>INSTAGRAM:</span>
