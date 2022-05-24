@@ -1,10 +1,10 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': 0.2.0
   '@types/tailwindcss': 3.0.10
   astro: 1.0.0-beta.12
-  husky: 7.0.4
+  husky: 8.0.1
   lint-staged: 12.4.1
   prettier: 2.6.2
   prettier-plugin-astro: next
@@ -13,7 +13,7 @@ devDependencies:
   '@astrojs/tailwind': 0.2.0
   '@types/tailwindcss': 3.0.10
   astro: 1.0.0-beta.12
-  husky: 7.0.4
+  husky: 8.0.1
   lint-staged: 12.4.1
   prettier: 2.6.2
   prettier-plugin-astro: 0.1.0-next.4
@@ -95,7 +95,7 @@ packages:
     resolution: {integrity: sha512-O6LYL9igYSzxCxDHYWUqEquuuUlMG0UL1SliZ7rF/vx9GwU71TCpsRe4iHZ0bcemM5ju9ihoTzGCmLXzYrNw0g==}
     dependencies:
       svelte: 3.47.0
-      svelte2tsx: 0.5.9_svelte@3.47.0+typescript@4.6.3
+      svelte2tsx: 0.5.9_ucc3fdkrl6lb7lhnlfimbouujy
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -1880,9 +1880,9 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/7.0.4:
-    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
-    engines: {node: '>=12'}
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
@@ -3849,7 +3849,7 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.9_svelte@3.47.0+typescript@4.6.3:
+  /svelte2tsx/0.5.9_ucc3fdkrl6lb7lhnlfimbouujy:
     resolution: {integrity: sha512-xTDASjlh+rKo4QRhTRYSH87sS7fRoyX67xhGIMPKa3FYqftRHRmMes6nVgEskiuhBovslNHYYpMMg5YM5n/STg==}
     peerDependencies:
       svelte: ^3.24
