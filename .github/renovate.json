@@ -1,4 +1,11 @@
 {
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["config:js-app", ":disableRateLimiting"],
-	"reviewers": ["wtchnm"]
+	"reviewers": ["wtchnm"],
+	"packageRules": [
+		{
+			"matchPackagePatterns": ["astro"],
+			"groupName": "Astro"
+		}
+	]
 }
