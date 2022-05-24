@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"incremental": true,
+		"isolatedModules": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"noEmit": true,
+		"target": "ESNext"
+	},
+	"include": ["astro.config.ts", "tailwind.config.ts"]
+}
