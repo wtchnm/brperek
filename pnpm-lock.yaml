@@ -5,7 +5,7 @@ specifiers:
   '@types/tailwindcss': 3.0.10
   astro: 1.0.0-beta.12
   husky: 7.0.4
-  lint-staged: 12.3.8
+  lint-staged: 12.4.1
   prettier: 2.6.2
   prettier-plugin-astro: next
 
@@ -14,7 +14,7 @@ devDependencies:
   '@types/tailwindcss': 3.0.10
   astro: 1.0.0-beta.12
   husky: 7.0.4
-  lint-staged: 12.3.8
+  lint-staged: 12.4.1
   prettier: 2.6.2
   prettier-plugin-astro: 0.1.0-next.4
 
@@ -265,6 +265,8 @@ packages:
     resolution: {integrity: sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.17.0
     dev: true
 
   /@babel/template/7.16.7:
@@ -590,7 +592,7 @@ packages:
     dev: true
 
   /arrify/1.0.1:
-    resolution: {integrity: sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=}
+    resolution: {integrity: sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -2210,8 +2212,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/12.3.8:
-    resolution: {integrity: sha512-0+UpNaqIwKRSGAFOCcpuYNIv/j5QGVC+xUVvmSdxHO+IfIGoHbFLo3XcPmV/LLnsVj5EAncNHVtlITSoY5qWGQ==}
+  /lint-staged/12.4.1:
+    resolution: {integrity: sha512-PTXgzpflrQ+pODQTG116QNB+Q6uUTDg5B5HqGvNhoQSGt8Qy+MA/6zSnR8n38+sxP5TapzeQGTvoKni0KRS8Vg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
