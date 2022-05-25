@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@astrojs/tailwind": "0.2.1",
 		"@types/tailwindcss": "3.0.10",
-		"astro": "1.0.0-beta.31",
+		"astro": "1.0.0-beta.33",
 		"husky": "8.0.1",
 		"lint-staged": "12.4.2",
 		"prettier": "2.6.2",
