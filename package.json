@@ -25,5 +25,6 @@
 	},
 	"lint-staged": {
 		"*": "prettier -uw --plugin-search-dir=."
-	}
+	},
+	"packageManager": "pnpm@7.1.5"
 }
