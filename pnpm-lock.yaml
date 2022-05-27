@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/tailwind': 0.2.1
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.34
+  astro: 1.0.0-beta.36
   husky: 8.0.1
   lint-staged: 12.4.2
   npm-run-all: 4.1.5
@@ -14,7 +14,7 @@ specifiers:
 devDependencies:
   '@astrojs/tailwind': 0.2.1
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.34
+  astro: 1.0.0-beta.36
   husky: 8.0.1
   lint-staged: 12.4.2
   npm-run-all: 4.1.5
@@ -659,8 +659,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro/1.0.0-beta.34:
-    resolution: {integrity: sha512-oA19VduaBloV2SHW9NjEQXTdNQBsWpjnmvopVRhUViRPZMGL8qc4EsJGqd7mWjdTSVor3CW6iCEqyzBnMeIfNw==}
+  /astro/1.0.0-beta.36:
+    resolution: {integrity: sha512-FbmhCU8OsIf6fBZTTO0L2PefGmUpatlOMqtzo/xJ4vcfja4WYjAzLcqTaYOOMrLkXB3yt8sxcdiYh+hJAxl+hg==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1073,7 +1073,7 @@ packages:
     dev: true
 
   /decamelize-keys/1.1.0:
-    resolution: {integrity: sha1-0XGoeTMlKAfrPLYdwcFEXQeN8tk=}
+    resolution: {integrity: sha512-ocLWuYzRPoS9bfiSdDd3cxvrzovVMZnRDVEzAs+hWIVXGDbHxWMECij2OBuyB/An0FFW/nLuq6Kv1i/YC5Qfzg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       decamelize: 1.2.0
@@ -1081,7 +1081,7 @@ packages:
     dev: true
 
   /decamelize/1.2.0:
-    resolution: {integrity: sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=}
+    resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -1092,7 +1092,7 @@ packages:
     dev: true
 
   /dedent-js/1.0.1:
-    resolution: {integrity: sha1-vuX7fJ5yfYXf+iRZDRDsGrElUwU=}
+    resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
     dev: true
 
   /deepmerge/4.2.2:
@@ -1101,7 +1101,7 @@ packages:
     dev: true
 
   /defaults/1.0.3:
-    resolution: {integrity: sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=}
+    resolution: {integrity: sha512-s82itHOnYrN0Ib8r+z7laQz3sdE+4FP3d9Q7VLO7U+KRT+CR0GsWuyHxzdAY82I7cXv0G/twrqomTJLOssO5HA==}
     dependencies:
       clone: 1.0.4
     dev: true
