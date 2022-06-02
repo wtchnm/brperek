@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/tailwind': 0.2.1
   '@types/node': 17.0.36
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.38
+  astro: 1.0.0-beta.40
   lint-staged: 12.5.0
   npm-run-all: 4.1.5
   prettier: 2.6.2
@@ -16,7 +16,7 @@ devDependencies:
   '@astrojs/tailwind': 0.2.1
   '@types/node': 17.0.36
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.38
+  astro: 1.0.0-beta.40
   lint-staged: 12.5.0
   npm-run-all: 4.1.5
   prettier: 2.6.2
@@ -41,8 +41,8 @@ packages:
       uvu: 0.5.3
     dev: true
 
-  /@astrojs/compiler/0.15.1:
-    resolution: {integrity: sha512-4PcWD7lfX1c6J9GwaVVbQjrMQEtqx3jXRGj92TCIc0EQ6kRKxLymdzRS9eW8yCsgJp6Ym4nCzQ8ifTSVSphjDQ==}
+  /@astrojs/compiler/0.15.2:
+    resolution: {integrity: sha512-YsxIyx026zPWbxv3wYrudr1jh8u6oSnhP6MW+9OAgiFuICHjSX4Rw+qm8wJj1D5IkJ3HsDtE+kFMMYIozZ5bvQ==}
     dependencies:
       tsm: 2.2.1
       uvu: 0.5.3
@@ -635,12 +635,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro/1.0.0-beta.38:
-    resolution: {integrity: sha512-Xbmt42mnFNCxnnrvZgQFdMkjhdAlKlMNz9a/d4KlYjPlLzJCTK+bzTEllmfu2v+2k3Y/jGvrW7gWiRe38n4ORw==}
+  /astro/1.0.0-beta.40:
+    resolution: {integrity: sha512-7TbwTp6S3cMffrK+aRSCzU8sMPJ+6UC0pQeKkO+LvI9AQHheUv69edZckW55SDJcHZhScDnwBwXuyE4ZGYxtzQ==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.15.1
+      '@astrojs/compiler': 0.15.2
       '@astrojs/language-server': 0.13.4
       '@astrojs/markdown-remark': 0.10.2
       '@astrojs/prism': 0.4.1
@@ -682,7 +682,7 @@ packages:
       prompts: 2.4.2
       recast: 0.20.5
       resolve: 1.22.0
-      rollup: 2.75.3
+      rollup: 2.75.5
       semver: 7.3.7
       serialize-javascript: 6.0.0
       shiki: 0.10.1
@@ -3061,7 +3061,7 @@ packages:
     dev: true
 
   /path-key/2.0.1:
-    resolution: {integrity: sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=}
+    resolution: {integrity: sha512-fEHGKCSmUSDPv4uoj8AlD+joPlq3peND+HRYyxFz4KPw4z926S/b8rIuFs2FYJg3BwsxJf6A9/3eIdLaYC+9Dw==}
     engines: {node: '>=4'}
     dev: true
 
@@ -3112,7 +3112,7 @@ packages:
     dev: true
 
   /pify/3.0.0:
-    resolution: {integrity: sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=}
+    resolution: {integrity: sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==}
     engines: {node: '>=4'}
     dev: true
 
@@ -3412,8 +3412,8 @@ packages:
     resolution: {integrity: sha512-V2hovdzFbOi77/WajaSMXk2OLm+xNIeQdMMuB7icj7bk6zi2F8GGAxigcnDFpJHbNyNcgyJDiP+8nOrY5cZGrA==}
     dev: true
 
-  /rollup/2.75.3:
-    resolution: {integrity: sha512-YA29fLU6MAYSaDxIQYrGGOcbXlDmG96h0krGGYObroezcQ0KgEPM3+7MtKD/qeuUbFuAJXvKZee5dA1dpwq1PQ==}
+  /rollup/2.75.5:
+    resolution: {integrity: sha512-JzNlJZDison3o2mOxVmb44Oz7t74EfSd1SQrplQk0wSaXV7uLQXtVdHbxlcT3w+8tZ1TL4r/eLfc7nAbz38BBA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -4092,7 +4092,7 @@ packages:
       esbuild: 0.14.42
       postcss: 8.4.14
       resolve: 1.22.0
-      rollup: 2.75.3
+      rollup: 2.75.5
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
