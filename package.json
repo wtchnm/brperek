@@ -5,7 +5,7 @@
 		"lint:astro": "astro check",
 		"lint:tsc": "tsc",
 		"lint": "run-p lint:*",
-		"format": "prettier -uw --plugin-search-dir=. .",
+		"format": "prettier -uw --cache --plugin-search-dir=. .",
 		"build": "astro build",
 		"preview": "astro preview"
 	},
@@ -16,8 +16,8 @@
 		"astro": "1.0.0-beta.47",
 		"lint-staged": "13.0.2",
 		"npm-run-all": "4.1.5",
-		"prettier": "2.6.2",
-		"prettier-plugin-astro": "next",
+		"prettier": "2.7.1",
+		"prettier-plugin-astro": "0.1.0-next.5",
 		"simple-git-hooks": "2.8.0",
 		"typescript": "4.7.4"
 	},
