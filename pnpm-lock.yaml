@@ -7,7 +7,7 @@ specifiers:
   astro: 1.0.0-beta.47
   lint-staged: 13.0.2
   npm-run-all: 4.1.5
-  prettier: 2.6.2
+  prettier: 2.7.1
   prettier-plugin-astro: next
   simple-git-hooks: 2.8.0
   typescript: 4.7.4
@@ -19,7 +19,7 @@ devDependencies:
   astro: 1.0.0-beta.47
   lint-staged: 13.0.2
   npm-run-all: 4.1.5
-  prettier: 2.6.2
+  prettier: 2.7.1
   prettier-plugin-astro: 0.1.0-next.5
   simple-git-hooks: 2.8.0
   typescript: 4.7.4
@@ -3160,13 +3160,13 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
       '@astrojs/compiler': 0.15.2
-      prettier: 2.6.2
+      prettier: 2.7.1
       sass-formatter: 0.7.4
       synckit: 0.7.1
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
