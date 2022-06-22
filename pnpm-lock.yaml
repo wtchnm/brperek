@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/tailwind': 0.2.1
   '@types/node': 17.0.36
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.50
+  astro: 1.0.0-beta.52
   lint-staged: 13.0.2
   npm-run-all: 4.1.5
   prettier: 2.7.1
@@ -16,7 +16,7 @@ devDependencies:
   '@astrojs/tailwind': 0.2.1
   '@types/node': 17.0.36
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.50
+  astro: 1.0.0-beta.52
   lint-staged: 13.0.2
   npm-run-all: 4.1.5
   prettier: 2.7.1
@@ -663,8 +663,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro/1.0.0-beta.50:
-    resolution: {integrity: sha512-apKHd3NGivSroTs5xSGEaFcGCl79wDnRJd9j4wDxM0KjnkVm/EHYbiI/OEzyps+A8B/fGnQ23uW9Rn/hDlyBzw==}
+  /astro/1.0.0-beta.52:
+    resolution: {integrity: sha512-rYloMdpiiTn/Fd5ngRzQfcnWwYOeci0Sp87eLFS3s3o6wRVPEiYnBKYHA2L5Eoyx/IdAqvHf0Er26pDA7sYwXg==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
