@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/tailwind': 0.2.1
   '@types/node': 17.0.36
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.56
+  astro: 1.0.0-beta.57
   lint-staged: 13.0.3
   npm-run-all: 4.1.5
   prettier: 2.7.1
@@ -16,7 +16,7 @@ devDependencies:
   '@astrojs/tailwind': 0.2.1
   '@types/node': 17.0.36
   '@types/tailwindcss': 3.0.10
-  astro: 1.0.0-beta.56
+  astro: 1.0.0-beta.57
   lint-staged: 13.0.3
   npm-run-all: 4.1.5
   prettier: 2.7.1
@@ -699,8 +699,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /astro/1.0.0-beta.56:
-    resolution: {integrity: sha512-E+hCIIY75Zc6fINIylhJvAZS7is1KPXIX/BJoUtwp52RBl8efsRV/cyhOzvGFdtVuRHTIIUC8a4tCJtqeLNGUQ==}
+  /astro/1.0.0-beta.57:
+    resolution: {integrity: sha512-TAUoel4dCRneUF5GkuNXnuLP9pXzzpAnw6CGCweCde7eHf5YA8p9KpQ+jZ+T4ftAcC8j2mLVAEpxdN2jKG6fGw==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -3254,6 +3254,7 @@ packages:
   /qs/6.10.5:
     resolution: {integrity: sha512-O5RlPh0VFtR78y79rgcgKK4wbAI0C5zGVLztOIdpWX6ep368q5Hv6XRxDvXuZ9q3C6v+e3n8UfZZJw7IIG27eQ==}
     engines: {node: '>=0.6'}
+    deprecated: when using stringify with arrayFormat comma, `[]` is appended on single-item arrays. Upgrade to v6.11.0 or downgrade to v6.10.4 to fix.
     dependencies:
       side-channel: 1.0.4
     dev: true
