@@ -27,7 +27,7 @@
 	"lint-staged": {
 		"*": "prettier -uw --plugin-search-dir=."
 	},
-	"packageManager": "pnpm@7.4.0",
+	"packageManager": "pnpm@7.4.1",
 	"engines": {
 		"node": ">=16",
 		"pnpm": ">=7"
