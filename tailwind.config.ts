@@ -1,10 +1,7 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
-import {
-	TailwindConfig,
-	TailwindValuesFontFamily
-} from 'tailwindcss/tailwind-config'
+import { Config } from 'tailwindcss/types'
 
-const config: TailwindConfig = {
+const config: Config = {
 	content: ['src/**/*.astro'],
 	theme: {
 		extend: {
@@ -20,10 +17,7 @@ const config: TailwindConfig = {
 				tertiary: '#9D9C9C'
 			},
 			fontFamily: {
-				sans: [
-					'Roboto',
-					...(defaultTheme.fontFamily as TailwindValuesFontFamily).sans
-				]
+				sans: ['Roboto', ...defaultTheme.fontFamily.sans]
 			},
 			letterSpacing: {
 				full: '0.2em'
