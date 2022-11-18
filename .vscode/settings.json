@@ -1,0 +1,7 @@
+{
+	"prettier.documentSelectors": ["**/*.astro"],
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"tailwindCSS.classAttributes": ["class", "class:list"]
+}
