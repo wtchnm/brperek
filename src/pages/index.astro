@@ -43,6 +43,7 @@ import Section from '../components/Section.astro'
 				<input
 					type='checkbox'
 					class='peer absolute top-0 z-10 h-8 w-8 opacity-0'
+					aria-hidden='true'
 				/>
 				<div
 					class='fixed top-0 left-0 flex h-full w-1/2 -translate-x-full transform-gpu flex-col space-y-4 bg-primary px-4 pt-20 text-lg transition-transform peer-checked:translate-x-0 peer-checked:transform-gpu'
@@ -59,7 +60,12 @@ import Section from '../components/Section.astro'
 		</header>
 		<main>
 			<section class='space-y-2 px-8'>
-				<img src='/images/me.webp' class='w-full' fetchpriority='high' />
+				<img
+					src='/images/me.webp'
+					class='w-full'
+					fetchpriority='high'
+					alt='Bruna Perek'
+				/>
 				<h1 class='text-3xl font-medium'>Olá, eu sou a Bruna</h1>
 				<h2 class='text-lg font-medium tracking-widesest text-tertiary'>
 					DESIGNER GRÁFICO &<br />EDITORA AUDIOVISUAL
