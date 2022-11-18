@@ -39,7 +39,7 @@ import Section from '../components/Section.astro'
 			class='sticky top-0 flex h-14 items-center justify-between bg-primary px-4 py-2'
 		>
 			<div class='relative'>
-				<img src='/images/menu.svg' class='relative z-10 h-8' />
+				<img src='/images/menu.svg' class='relative z-10 h-8' alt='Menu' />
 				<input
 					type='checkbox'
 					class='peer absolute top-0 z-10 h-8 w-8 opacity-0'
@@ -55,7 +55,7 @@ import Section from '../components/Section.astro'
 					<a href='#socials'>Sociais</a>
 				</div>
 			</div>
-			<img src='/images/icon.webp' class='h-full' />
+			<img src='/images/icon.webp' class='h-full' alt='Ícone' />
 		</header>
 		<main>
 			<section class='space-y-2 px-8'>
@@ -85,6 +85,7 @@ import Section from '../components/Section.astro'
 								loading='lazy'
 								decoding='async'
 								fetchpriority='low'
+								alt={`Trabalho ${index}`}
 							/>
 						))
 					}
@@ -105,7 +106,7 @@ import Section from '../components/Section.astro'
 			</Section>
 			<Section title='SOCIAIS' anchor='socials' class='mb-8'>
 				<div class='mt-8 flex items-center justify-center pr-4'>
-					<img src='/images/logo.webp' class='w-5/12' />
+					<img src='/images/logo.webp' class='w-5/12' alt='Logo' />
 					<div class='ml-2'>
 						<Link
 							label='INSTRAGRAM'
