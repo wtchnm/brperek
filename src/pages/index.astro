@@ -1,5 +1,4 @@
 ---
-import '../base.css'
 import Card from '../components/Card.astro'
 import Link from '../components/Link.astro'
 import Section from '../components/Section.astro'
@@ -18,6 +17,22 @@ import Section from '../components/Section.astro'
 		<meta name='theme-color' content='#171717' />
 		<meta name='description' content='DESIGNER GRÁFICO & EDITORA AUDIOVISUAL' />
 		<title>BRPEREK</title>
+		<style>
+			@font-face {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 300;
+				font-display: swap;
+				src: url('/fonts/Roboto-300.woff2') format('woff2');
+			}
+			@font-face {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 500;
+				font-display: swap;
+				src: url('/fonts/Roboto-500.woff2') format('woff2');
+			}
+		</style>
 	</head>
 	<body class='bg-primary bg-body bg-cover font-light text-primary antialiased'>
 		<header
