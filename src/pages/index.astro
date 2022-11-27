@@ -82,17 +82,18 @@ import Section from '../components/Section.astro'
 				</p>
 			</section>
 			<Section title='TRABALHOS' anchor='work'>
-				<div class='mt-3 flex snap-x snap-mandatory overflow-x-auto'>
+				<div class='mt-3 grid grid-cols-3'>
 					{
-						Array.from({ length: 5 }).map((_, index) => (
-							<img
-								class='w-3/4 snap-center'
-								src={`/images/gallery/${index}.webp`}
-								loading='lazy'
-								decoding='async'
-								fetchpriority='low'
-								alt={`Trabalho ${index}`}
-							/>
+						Array.from({ length: 15 }).map((_, index) => (
+							<a href={`/images/gallery/${index}.webp`} target='_blank'>
+								<img
+									src={`/images/gallery/${index}.webp`}
+									loading='lazy'
+									decoding='async'
+									fetchpriority='low'
+									alt={`Trabalho ${index}`}
+								/>
+							</a>
 						))
 					}
 				</div>
