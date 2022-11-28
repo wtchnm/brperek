@@ -68,7 +68,9 @@ import { Picture } from '@astrojs/image/components'
 			</div>
 		</header>
 		<main class='max-w-screen-2xl'>
-			<section class='space-y-2 px-8 lg:flex lg:px-20 lg:pt-20'>
+			<section
+				class='space-y-2 px-8 lg:flex lg:justify-center lg:px-20 lg:pt-16'
+			>
 				<div class='flex-shrink-0 lg:h-[640px]'>
 					<Picture
 						widths={[315, 525]}
@@ -82,7 +84,7 @@ import { Picture } from '@astrojs/image/components'
 						alt='Bruna Perek'
 					/>
 				</div>
-				<div class='lg:space-y-4 lg:pt-8'>
+				<div class='lg:ml-8 lg:space-y-4 lg:pt-8'>
 					<h1 class='text-3xl font-medium lg:text-4xl'>Olá, eu sou a Bruna</h1>
 					<h2
 						class='text-lg font-medium tracking-widesest text-tertiary lg:text-2xl'
@@ -95,7 +97,7 @@ import { Picture } from '@astrojs/image/components'
 						url='mailto:brperek@gmail.com'
 						class='text-lg'
 					/>
-					<p class='text-justify indent-12 text-secondary lg:text-2xl'>
+					<p class='max-w-md text-justify indent-12 text-secondary lg:text-2xl'>
 						Formada em Técnico de Informática pelo Instituto Federal do Paraná,
 						produzo artes visuais, webdesigner, designer gráfico e edição
 						audiovisual como curtas, trailers, reels e vlogs.
