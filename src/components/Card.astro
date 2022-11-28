@@ -2,11 +2,17 @@
 interface Props {
 	title: string
 	subtitle: string
+	class?: string
 }
 const { title, subtitle } = Astro.props
 ---
 
-<div class='bg-primary p-6 text-center shadow-2xl'>
-	<p class='text-xl font-medium'>{title}</p>
-	<p class='text-sm'>{subtitle}</p>
+<div
+	class:list={[
+		'bg-primary p-6 text-center shadow-2xl lg:p-10',
+		Astro.props.class
+	]}
+>
+	<p class='text-xl font-medium lg:text-5xl'>{title}</p>
+	<p class='text-sm lg:text-2xl'>{subtitle}</p>
 </div>

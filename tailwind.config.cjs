@@ -5,7 +5,8 @@ module.exports = {
 	content: ['src/**/*.astro'],
 	theme: {
 		backgroundColor: {
-			primary: '#171717'
+			primary: '#171717',
+			secondary: '#181F10'
 		},
 		backgroundImage: {
 			body: "url('/images/background.webp')"

@@ -6,7 +6,10 @@ interface Props extends astroHTML.JSX.HTMLAttributes {
 const { title, anchor } = Astro.props
 ---
 
-<section id={anchor} class:list={['mt-10 scroll-mt-16', Astro.props.class]}>
-	<h2 class='px-8 text-right text-2xl'>{title}</h2>
+<section
+	id={anchor}
+	class:list={['mt-10 scroll-mt-16 lg:scroll-mt-36', Astro.props.class]}
+>
+	<h2 class='px-8 text-right text-2xl lg:px-12 lg:text-4xl'>{title}</h2>
 	<slot />
 </section>

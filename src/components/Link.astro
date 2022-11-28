@@ -3,10 +3,11 @@ interface Props {
 	label: string
 	title: string
 	url: string
+	class?: string
 }
 const { label, title, url } = Astro.props
 ---
 
-<p class='text-secondary'>
+<p class:list={['text-secondary', Astro.props.class]}>
 	{label}: <a class='text-primary' href={url} target='_blank'>{title}</a>
 </p>
