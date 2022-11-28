@@ -2,6 +2,7 @@
 import Card from '../components/Card.astro'
 import Link from '../components/Link.astro'
 import Section from '../components/Section.astro'
+import { Picture } from '@astrojs/image/components'
 ---
 
 <!DOCTYPE html>
@@ -60,10 +61,15 @@ import Section from '../components/Section.astro'
 		</header>
 		<main>
 			<section class='space-y-2 px-8'>
-				<img
+				<Picture
+					widths={[315, 525]}
+					sizes='(max-width: 400px) 315px, 525px'
+					aspectRatio={525 / 555}
 					src='/images/me.webp'
 					class='w-full'
 					fetchpriority='high'
+					loading='eager'
+					decoding='sync'
 					alt='Bruna Perek'
 				/>
 				<h1 class='text-3xl font-medium'>Olá, eu sou a Bruna</h1>
@@ -86,10 +92,11 @@ import Section from '../components/Section.astro'
 					{
 						Array.from({ length: 15 }).map((_, index) => (
 							<a href={`/images/gallery/${index}.webp`} target='_blank'>
-								<img
+								<Picture
+									widths={[125, 800]}
+									sizes='(max-width: 400px) 125px, 800px'
+									aspectRatio={834 / 791}
 									src={`/images/gallery/${index}.webp`}
-									loading='lazy'
-									decoding='async'
 									fetchpriority='low'
 									alt={`Trabalho ${index}`}
 								/>
@@ -113,7 +120,15 @@ import Section from '../components/Section.astro'
 			</Section>
 			<Section title='SOCIAIS' anchor='socials' class='mb-8'>
 				<div class='mt-8 flex items-center justify-center pr-4'>
-					<img src='/images/logo.webp' class='w-5/12' alt='Logo' />
+					<div class='w-5/12'>
+						<Picture
+							widths={[150, 715]}
+							sizes='(max-width: 400px) 150px, 715px'
+							aspectRatio={719 / 650}
+							src='/images/logo.webp'
+							alt='Logo'
+						/>
+					</div>
 					<div class='ml-2'>
 						<Link
 							label='INSTRAGRAM'
