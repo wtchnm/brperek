@@ -78,7 +78,6 @@ import { Picture } from '@astrojs/image/components'
 						aspectRatio={525 / 555}
 						src='/images/me.webp'
 						class='w-full'
-						fetchpriority='high'
 						loading='eager'
 						decoding='sync'
 						alt='Bruna Perek'
@@ -128,7 +127,6 @@ import { Picture } from '@astrojs/image/components'
 									sizes='(max-width: 400px) 125px, 800px'
 									aspectRatio={834 / 791}
 									src={`/images/gallery/${index}.webp`}
-									fetchpriority='low'
 									alt={`Trabalho ${index}`}
 									class='w-full'
 								/>

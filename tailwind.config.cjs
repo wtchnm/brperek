@@ -24,7 +24,5 @@ module.exports = {
 				widesest: '0.2em'
 			}
 		}
-	},
-	experimental: 'all',
-	future: 'all'
+	}
 }
