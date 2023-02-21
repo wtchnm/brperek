@@ -39,9 +39,9 @@ import { Picture } from '@astrojs/image/components'
 		class='flex flex-col items-center bg-primary bg-body bg-cover font-light text-primary antialiased'
 	>
 		<header
-			class='sticky top-0 flex h-14 w-full max-w-screen-2xl items-center justify-between bg-primary px-4 py-2 lg:h-28 lg:px-12 lg:py-4'
+			class='sticky top-0 flex h-14 w-full max-w-screen-2xl items-center justify-between bg-primary px-4 py-2 md:h-28 md:px-12 md:py-4'
 		>
-			<div class='relative lg:hidden'>
+			<div class='relative md:hidden'>
 				<img src='/images/menu.svg' class='relative z-10 h-8' alt='' />
 				<input
 					type='checkbox'
@@ -60,7 +60,7 @@ import { Picture } from '@astrojs/image/components'
 				</div>
 			</div>
 			<img src='/images/icon.webp' class='h-full' alt='Ícone' />
-			<div class='hidden space-x-12 text-4xl uppercase lg:block'>
+			<div class='hidden space-x-12 text-4xl uppercase md:block'>
 				<a href='#top'>Início</a>
 				<a href='#work'>Trabalhos</a>
 				<a href='#services'>Serviços</a>
@@ -69,9 +69,9 @@ import { Picture } from '@astrojs/image/components'
 		</header>
 		<main class='max-w-screen-2xl'>
 			<section
-				class='space-y-2 px-8 lg:flex lg:justify-center lg:px-20 lg:pt-16'
+				class='space-y-2 px-8 md:flex md:justify-center md:px-20 md:pt-16'
 			>
-				<div class='flex-shrink-0 lg:h-[640px]'>
+				<div class='flex-shrink-0 md:h-[640px]'>
 					<Picture
 						widths={[315, 525]}
 						sizes='(max-width: 400px) 315px, 525px'
@@ -83,10 +83,10 @@ import { Picture } from '@astrojs/image/components'
 						alt='Bruna Perek'
 					/>
 				</div>
-				<div class='lg:ml-8 lg:space-y-4 lg:pt-8'>
-					<h1 class='text-3xl font-medium lg:text-4xl'>Olá, eu sou a Bruna</h1>
+				<div class='md:ml-8 md:space-y-4 md:pt-8'>
+					<h1 class='text-3xl font-medium md:text-4xl'>Olá, eu sou a Bruna</h1>
 					<h2
-						class='text-lg font-medium tracking-widesest text-tertiary lg:text-2xl'
+						class='text-lg font-medium tracking-widesest text-tertiary md:text-2xl'
 					>
 						DESIGNER GRÁFICO &<br />EDITORA AUDIOVISUAL
 					</h2>
@@ -96,13 +96,13 @@ import { Picture } from '@astrojs/image/components'
 						url='mailto:brperek@gmail.com'
 						class='text-lg'
 					/>
-					<p class='max-w-md text-justify indent-12 text-secondary lg:text-2xl'>
+					<p class='max-w-md text-justify indent-12 text-secondary md:text-2xl'>
 						Formada em Técnico de Informática pelo Instituto Federal do Paraná,
 						produzo artes visuais, webdesigner, designer gráfico e edição
 						audiovisual como curtas, trailers, reels e vlogs.
 					</p>
 					<div
-						class='!mt-6 hidden flex-col items-start space-y-4 text-2xl lg:flex'
+						class='!mt-6 hidden flex-col items-start space-y-4 text-2xl md:flex'
 					>
 						<a
 							href='/resume.pdf'
@@ -118,7 +118,7 @@ import { Picture } from '@astrojs/image/components'
 				</div>
 			</section>
 			<Section title='TRABALHOS' anchor='work'>
-				<div class='mt-3 grid grid-cols-2 px-4 lg:mt-8 lg:grid-cols-4'>
+				<div class='mt-3 grid grid-cols-2 px-4 md:mt-8 md:grid-cols-4'>
 					{
 						Array.from({ length: 15 }).map((_, index) => (
 							<a href={`/images/gallery/${index}.webp`} target='_blank'>
@@ -137,7 +137,7 @@ import { Picture } from '@astrojs/image/components'
 			</Section>
 			<Section title='SERVIÇOS' anchor='services'>
 				<div
-					class='mt-8 space-y-4 px-8 lg:ml-[20%] lg:grid lg:w-4/5 lg:grid-cols-2 lg:gap-5 lg:space-y-0 lg:px-12'
+					class='mt-8 space-y-4 px-8 md:ml-[20%] md:grid md:w-4/5 md:grid-cols-2 md:gap-5 md:space-y-0 md:px-12'
 				>
 					<Card
 						title='Edição de Vídeos'
@@ -150,11 +150,11 @@ import { Picture } from '@astrojs/image/components'
 					<Card
 						title='Edição de Fotos'
 						subtitle='Lightroom/VSCO'
-						class='lg:col-start-2'
+						class='md:col-start-2'
 					/>
 				</div>
 			</Section>
-			<Section title='SOCIAIS' anchor='socials' class='mb-8 lg:mb-16'>
+			<Section title='SOCIAIS' anchor='socials' class='mb-8 md:mb-16'>
 				<div class='mt-8 flex items-center justify-center pr-4'>
 					<div class='w-5/12'>
 						<Picture
@@ -165,7 +165,7 @@ import { Picture } from '@astrojs/image/components'
 							alt='Logo'
 						/>
 					</div>
-					<div class='ml-2 lg:space-y-4 lg:text-3xl'>
+					<div class='ml-2 md:space-y-4 md:text-3xl'>
 						<Link
 							label='INSTRAGRAM'
 							title='@brperek'

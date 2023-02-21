@@ -9,10 +9,10 @@ const { title, subtitle } = Astro.props
 
 <div
 	class:list={[
-		'bg-primary p-6 text-center shadow-2xl lg:p-10',
+		'bg-primary p-6 text-center shadow-2xl md:p-10',
 		Astro.props.class
 	]}
 >
-	<p class='text-xl font-medium lg:text-5xl'>{title}</p>
-	<p class='text-sm lg:text-2xl'>{subtitle}</p>
+	<p class='text-xl font-medium md:text-5xl'>{title}</p>
+	<p class='text-sm md:text-2xl'>{subtitle}</p>
 </div>
