@@ -1,5 +1,4 @@
 ---
-import Card from '../components/Card.astro'
 import Link from '../components/Link.astro'
 import Section from '../components/Section.astro'
 import { Picture } from '@astrojs/image/components'
@@ -55,7 +54,6 @@ import { Picture } from '@astrojs/image/components'
 					<a href='https://www.behance.net/brperek/' target='_blank'>Behance</a>
 					<a href='#top'>Início</a>
 					<a href='#work'>Trabalhos</a>
-					<a href='#services'>Serviços</a>
 					<a href='#socials'>Sociais</a>
 				</div>
 			</div>
@@ -63,7 +61,6 @@ import { Picture } from '@astrojs/image/components'
 			<div class='hidden space-x-12 text-4xl uppercase md:block'>
 				<a href='#top'>Início</a>
 				<a href='#work'>Trabalhos</a>
-				<a href='#services'>Serviços</a>
 				<a href='#socials'>Sociais</a>
 			</div>
 		</header>
@@ -133,25 +130,6 @@ import { Picture } from '@astrojs/image/components'
 							</a>
 						))
 					}
-				</div>
-			</Section>
-			<Section title='SERVIÇOS' anchor='services'>
-				<div
-					class='mt-8 space-y-4 px-8 md:ml-[20%] md:grid md:w-4/5 md:grid-cols-2 md:gap-5 md:space-y-0 md:px-12'
-				>
-					<Card
-						title='Edição de Vídeos'
-						subtitle='Sony Vegas/Premiere/CapCut'
-					/>
-					<Card
-						title='WebDesigner'
-						subtitle='Photoshop/Illustrador/Canva/Figma'
-					/>
-					<Card
-						title='Edição de Fotos'
-						subtitle='Lightroom/VSCO'
-						class='md:col-start-2'
-					/>
 				</div>
 			</Section>
 			<Section title='SOCIAIS' anchor='socials' class='mb-8 md:mb-16'>
