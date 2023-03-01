@@ -55,15 +55,15 @@ import Header from '../components/Header.astro'
 			</div>
 		</section>
 		<Section title='TRABALHOS' anchor='work'>
-			<div class='mt-3 grid grid-cols-2 px-4 md:mt-8 md:grid-cols-4'>
+			<div class='mt-3 grid grid-cols-2 gap-4 px-4 md:mt-8 md:grid-cols-4'>
 				{
-					Array.from({ length: 13 }).map((_, index) => (
-						<a href={`/images/gallery/${index}.webp`} target='_blank'>
+					Array.from({ length: 23 }).map((_, index) => (
+						<a href={`/images/gallery/${index}.png`} target='_blank'>
 							<Picture
-								widths={[125, 800]}
-								sizes='(max-width: 400px) 125px, 800px'
-								aspectRatio={834 / 791}
-								src={`/images/gallery/${index}.webp`}
+								widths={[192, 704]}
+								sizes='(max-width: 768px) 192px, 100vw'
+								aspectRatio={710 / 667}
+								src={`/images/gallery/${index}.png`}
 								alt={`Trabalho ${index}`}
 								class='w-full'
 							/>
