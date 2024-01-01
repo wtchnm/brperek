@@ -1,3 +1,8 @@
+---
+import { Image } from 'astro:assets'
+import IconImage from '../assets/icon.webp'
+---
+
 <header
 	class='sticky top-0 flex h-14 w-full max-w-screen-2xl items-center justify-between bg-primary px-4 py-2 md:h-28 md:px-12 md:py-4'
 >
@@ -9,7 +14,7 @@
 			aria-label='Menu'
 		/>
 		<div
-			class='fixed top-0 left-0 flex h-full w-1/2 -translate-x-full transform-gpu flex-col space-y-4 bg-primary px-4 pt-20 text-lg transition-transform peer-checked:translate-x-0 peer-checked:transform-gpu'
+			class='fixed left-0 top-0 flex h-full w-1/2 -translate-x-full transform-gpu flex-col space-y-4 bg-primary px-4 pt-20 text-lg transition-transform peer-checked:translate-x-0 peer-checked:transform-gpu'
 		>
 			<a href='/resume.pdf' download='cv.pdf'>Download CV</a>
 			<a href='https://www.behance.net/brperek/' target='_blank'>Behance</a>
@@ -18,7 +23,7 @@
 			<a href='#socials'>Sociais</a>
 		</div>
 	</div>
-	<img src='/images/icon.webp' class='h-full' alt='Ícone' />
+	<Image src={IconImage} class='h-full w-auto' alt='Ícone' />
 	<div class='hidden space-x-12 text-4xl uppercase md:block'>
 		<a href='#top'>Início</a>
 		<a href='#work'>Trabalhos</a>
