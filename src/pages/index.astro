@@ -2,13 +2,13 @@
 import Link from '../components/Link.astro'
 import Section from '../components/Section.astro'
 import { Picture } from 'astro:assets'
-import Main from '../layouts/Main.astro'
+import Base from '../layouts/Base.astro'
 import Header from '../components/Header.astro'
 import MeImage from '../assets/me.webp'
 import LogoImage from '../assets/logo.webp'
 ---
 
-<Main>
+<Base>
 	<Header />
 	<main class='max-w-screen-2xl'>
 		<section class='space-y-2 px-8 md:flex md:justify-center md:px-20 md:pt-16'>
@@ -27,7 +27,7 @@ import LogoImage from '../assets/logo.webp'
 			<div class='md:ml-8 md:space-y-4 md:pt-8'>
 				<h1 class='text-3xl font-medium md:text-4xl'>Olá, eu sou a Bruna</h1>
 				<h2
-					class='text-lg font-medium tracking-widesest text-tertiary md:text-2xl'
+					class='tracking-widesest text-green text-lg font-medium md:text-2xl'
 				>
 					DESIGNER GRÁFICO &<br />EDITORA AUDIOVISUAL
 				</h2>
@@ -37,7 +37,7 @@ import LogoImage from '../assets/logo.webp'
 					url='mailto:brperek@gmail.com'
 					class='text-lg'
 				/>
-				<p class='max-w-md text-justify indent-12 text-secondary md:text-2xl'>
+				<p class='text-gray max-w-md text-justify indent-12 md:text-2xl'>
 					Formada em Técnico de Informática pelo Instituto Federal do Paraná,
 					produzo artes visuais, webdesigner, designer gráfico e edição
 					audiovisual como curtas, trailers, reels e vlogs.
@@ -45,13 +45,15 @@ import LogoImage from '../assets/logo.webp'
 				<div
 					class='!mt-6 hidden flex-col items-start space-y-4 text-2xl md:flex'
 				>
-					<a href='/resume.pdf' download='cv.pdf' class='bg-secondary px-8 py-4'
-						>Download CV</a
+					<a
+						href='/resume.pdf'
+						download='cv.pdf'
+						class='bg-dark-green px-8 py-4'>Download CV</a
 					>
 					<a
 						href='https://www.behance.net/brperek/'
 						target='_blank'
-						class='bg-secondary px-8 py-4'>Ir para Behance</a
+						class='bg-dark-green px-8 py-4'>Ir para Behance</a
 					>
 				</div>
 			</div>
@@ -108,4 +110,4 @@ import LogoImage from '../assets/logo.webp'
 			</div>
 		</Section>
 	</main>
-</Main>
+</Base>

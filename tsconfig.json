@@ -2,5 +2,7 @@
 	"extends": "astro/tsconfigs/strictest",
 	"compilerOptions": {
 		"incremental": true
-	}
+	},
+	"include": [".astro/types.d.ts", "**/*"],
+	"exclude": ["dist"]
 }
